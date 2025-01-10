@@ -1,0 +1,75 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: linear-gradient(to right, blue, black);
+    margin: auto;
+    padding: 0;
+    opacity: 0;
+    animation: opacity 4s forwards;
+    display: flex;
+}
+
+@keyframes opacity {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+#content {
+    width: 50%;
+    margin: auto;
+    border: 10px solid #000000;
+}
+.post {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #000000;
+    background-color: #181453;
+}
+
+.post .left {
+    /*float: left;*/
+    margin-right: 10px;
+    display: block;
+}
+
+.post img {
+    width: 600px;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 3px 4px #ffffff;
+}
+
+h2 {
+    text-align: center;
+    text-shadow: 2px 3px 4px #ffffff;
+}
+h3 {
+    text-align: center;
+    text-shadow: 2px 2px 4px #ffffff;
+    color: rgb(37, 5, 5);
+}
+
+p {
+    text-align: center;
+    color: #ffffff;
+}
+
+#banner {
+    background-color: #181453;
+    text-align: center;
+    border: 1px solid #000000;
+    margin: 10px;
+}
+
+.button {
+    background-image: linear-gradient(blue, black);
+    border: solid #000000;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
